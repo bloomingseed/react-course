@@ -1,13 +1,65 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #282D35;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  font-family: 'Inter', sans-serif;
+}
+
+.my-navbar {
+  background-color: #21222A;
+  padding: 31px 24px;
+  color: #DEEBF8;
+}
+
+.my-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-nav h3 {
+  color: #61DAFB;
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.my-nav img {
+  width: 29px;
+  height: 29px;
+  margin-right: 12px;
+}
+
+.my-nav > *:last-child {
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.main {
+  padding: 57px 27px;
+  background: url("icon-large.png") right center no-repeat;
+}
+
+.main h1 {
+  color: white;
+  margin-top: 0;
+}
+
+.main-ul {
+  color: #61DAFB;
+  margin-left: 39px;
+  padding-left: 0;
+}
+
+.main-ul > li {
+  margin-bottom: 8px;
+  font-size: 30px;
+}
+
+.main-ul span {
+  color: white;
+  font-size: medium;
 }
