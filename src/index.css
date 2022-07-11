@@ -1,13 +1,108 @@
 body {
+  font-family: 'Inter', sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #23252C;
+  padding: 100px 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.app {
+  width: 317px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1A1B21;
+  color: white;
+  border-radius: 16px;
+}
+
+.info {
+  border-radius: 16px 16px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.info img {
+  border-radius: 16px 16px 0 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+.info h2 {
+  margin: 18px 0 0;
+  color: white;
+  font-size: 30px;
+}
+
+.info h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #F3BF99;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.info p {
+  margin-top: 12px;
+  margin-bottom: 24px;
+  color: #F5F5F5;
+  font-size: 10px;
+}
+
+.info .info-button {
+  padding: 9px 92px;
+  background-color: white;
+  border-radius: 4px;
+  color: #374151;
+  font-size: 16px;
+}
+
+.info-button i {
+  margin-right: 12px;
+}
+
+.about {
+  padding: 0 32px;
+  margin-bottom: 24px;
+}
+
+.about h2 {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.about p {
+  margin: 0;
+  font-size: 10px;
+  color: #DCDCDC;
+}
+
+.interests {
+  padding: 0 32px;
+  margin-bottom: 12px;
+}
+
+.interests h2 {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.interests ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 10px;
+  color: #DCDCDC;
+}
+
+.footer {
+  background-color: #161619;
+  border-radius: 0 0 16px 16px;
+  padding: 20px 32px;
+  margin-top: 32px;
+}
+
+.footer .nav-social-links {
+  display: flex;
+  justify-content: space-around;
 }
