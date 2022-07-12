@@ -1,0 +1,11 @@
+.footer {
+  background-color: #161619;
+  border-radius: 0 0 16px 16px;
+  padding: 20px 32px;
+  margin-top: 32px;
+}
+
+.footer .nav-social-links {
+  display: flex;
+  justify-content: space-around;
+}

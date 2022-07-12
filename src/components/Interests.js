@@ -1,4 +1,5 @@
 import React from "react";
+import "./../assets/stylesheets/Interests.css";
 
 export default function Interests() {
   return (

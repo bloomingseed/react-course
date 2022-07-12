@@ -1,0 +1,46 @@
+.info {
+  border-radius: 16px 16px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.info img {
+  border-radius: 16px 16px 0 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+.info h2 {
+  margin: 18px 0 0;
+  color: white;
+  font-size: 30px;
+}
+
+.info h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #F3BF99;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.info p {
+  margin-top: 12px;
+  margin-bottom: 24px;
+  color: #F5F5F5;
+  font-size: 10px;
+}
+
+.info .info-button {
+  padding: 9px 92px;
+  background-color: white;
+  border-radius: 4px;
+  color: #374151;
+  font-size: 16px;
+}
+
+.info-button i {
+  margin-right: 12px;
+}
