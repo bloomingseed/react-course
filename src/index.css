@@ -40,7 +40,7 @@ body {
 
 .main {
   padding: 57px 27px;
-  background: url("icon-large.png") right center no-repeat;
+  background: url("./images/icon-large.png") right center no-repeat;
 }
 
 .main h1 {
