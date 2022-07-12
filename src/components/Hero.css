@@ -1,0 +1,25 @@
+.hero {
+  margin: 26px 36px;
+}
+
+.center-container {
+  text-align: center;
+}
+
+.hero .center-container img {
+  width: 100%;
+  object-fit: contain;
+  max-height: 232px;
+}
+
+.hero h1 {
+  font-size: 2.25rem;
+  margin-top: 17px;
+  margin-bottom: 0;
+}
+
+.hero p {
+  color: #222222;
+  max-width: 320px;
+  margin-top: 6px;
+}
