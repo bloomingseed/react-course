@@ -1,0 +1,53 @@
+.journal {
+  display: grid;
+  gap: 24px;
+  margin: 30px 0;
+}
+
+.journal-img {
+  grid-column: 1 / 2;
+}
+
+.journal-details {
+  grid-column: 2 / 4;
+}
+
+.journal-img img {
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.journal-location {
+  font-size: 12px;
+}
+
+.journal-location .marker {
+  margin-right: 8px;
+}
+
+.journal-location .location-text {
+  text-transform: uppercase;
+  letter-spacing: 0.17em;
+}
+
+.journal-location .location-gmap {
+  margin-left: 18px;
+  color: #918E9B;
+}
+
+.journal-details h3 {
+  font-size: 25px;
+  margin: 6px 0 22px 0;
+}
+
+.journal-details .journal-date {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.journal-details .journal-description {
+  font-size: 12px;
+  color: #2B283A
+}
